@@ -1,0 +1,17 @@
+[project]
+name = "face-recognize-training"
+version = "0.1.0"
+description = "Face recognition training experiments for the PIE assignment data."
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=2.0",
+    "pillow>=10.0",
+    "scikit-learn>=1.5",
+    "scipy>=1.13",
+    "torch==2.9.1",
+    "torchvision==0.24.1",
+    "tqdm>=4.67",
+]
+
+[tool.uv]
+package = false
